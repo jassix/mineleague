@@ -1,0 +1,33 @@
+.socialIcon {
+    display: inline-flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--sidebar-color);
+    border-radius: 15px;
+    
+    svg {
+        width: 25px;
+        height: 25px
+    }
+}
+
+.socialIcon:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.socialsIcons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.socials {
+    height: 90vh;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+}

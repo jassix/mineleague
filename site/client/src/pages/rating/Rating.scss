@@ -1,0 +1,43 @@
+.rating {
+    color: var(--text-color);
+    height: 150%;
+    text-align: center;
+
+    .playerImg img {
+        width: 50px;
+    }
+
+    .ratingImg img {
+        margin-left: 10px;
+        display: inline-flex;   
+    }
+}
+
+tr {
+    transition: ease-out .7s;
+    white-space: nowrap;
+    transition: 0.2s;
+}
+
+tr:hover {
+    filter: brightness(1.2);
+    transition: var(--trans-05);
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+td {
+    border: none;
+    vertical-align: middle;
+    padding: 7px 10px;
+}
+
+.Admin {
+    background: var(--gradient-admin);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: var(--trans-05);
+}

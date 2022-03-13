@@ -1,0 +1,21 @@
+.contentText {
+    ul {
+        text-align: center;
+        button {
+           margin-top: 15px; 
+        }
+
+
+        li {
+            color: var(--text-color);
+            list-style-type: none;
+        }
+    }
+}
+
+.content {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

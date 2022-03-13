@@ -1,0 +1,12 @@
+.softbox {
+    width: 800px;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.softboxButton {
+    margin-top: 35px;
+}
